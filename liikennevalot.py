@@ -4,6 +4,12 @@ import time
 import signal
 import sys
 
+# Työ liikennevalot
+# Raspberry pi, valopinnit 3 kpl, painike.
+# Jos painiketta painetaan, vaihtuu valot keltaiseksi ja sitten punaiseksi.
+# Tämän jälkeen jalankulkijoiden valo vaihtuu vihreäksi.
+# Jalankulkijoiden valo vaihtuu 2sek jälkeen keltaiseksi, sitten punaiseksi.
+# Samalla autoilijoiden valo vaihtuu vihreäksi.
 
 #autoilijat
 LED_PA=4
