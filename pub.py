@@ -5,7 +5,11 @@
 
 import paho.mqtt.client as mqtt
 
-# COnnecting to pblic tv on the class.
+# Tehtävä 5.4: MQTT asiakas 
+# Komentoriviasiakasta käytetty ja lähetetty näytölle viesti komennolla:
+# mosquitto_pub -h 192.168.2.12 -t testitopic -m "Karhun rasp"
+
+# Connecting to public tv on the class.
 broker_ip = "192.168.2.12"
 topiikki = "testitopic"
 viesti = "Karhun rasp"
