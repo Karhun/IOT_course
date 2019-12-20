@@ -4,6 +4,8 @@ import time
 import picamera
 import cv2
 
+# Tehtävä 4: Asenna liiketunnistin ja kamera raspberry pihin.
+# Ota kuva, kun liikettä havaittu ja tallenna eri tiedostoon kuin oletustiedosto.
 
 camera = picamera.PiCamera()
 
